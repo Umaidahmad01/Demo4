@@ -1,5 +1,5 @@
-#(©)CodeXBotz
-#By @Codeflix_Bots
+#(©)bot_society
+#By @team_society_1
 
 
 
@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6717070197:AAHa0e_kzvmnwAWafUvHPZt-TDBklpKK2_g")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7435797905:AAFOr5iwexbT08fN3FViG8RJFZCSqUQe9iI")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20718334"))
@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "20718334"))
 API_HASH = os.environ.get("API_HASH", "4e81464b29d79c58d0ad8a0c55ece4a5")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002177334941"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002233608345"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7432102513"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5757198025"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,17 +32,17 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Umaid:umaid@cluster0.k2yx
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002126461167"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001930406310"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001751370969"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002073634420"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001956269189"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002154974508"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ »</b>")
 try:
-    ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "7432102513 5585016974 5585016974 7432102513").split()):
+    ADMINS=[5585016974]
+    for x in (os.environ.get("ADMINS", "5757198025 5585016974 5585016974 5757198025").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -60,10 +60,10 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @rin_nanakura"
+USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @WoW_Gameplayes_YT"
 
-ADMINS.append(7432102513)
-ADMINS.append(7432102513)
+ADMINS.append(5757198025)
+ADMINS.append(5757198025)
 
 LOG_FILE_NAME = "codeflixbots.txt"
 
