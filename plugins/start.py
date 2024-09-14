@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
     
     [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 MAIN CHANNEL', url='https://t.me/animes_in_hindi_sub')
+                    InlineKeyboardButton('🍁 MAIN CHANNEL', url='https://t.me/anime_sub_society')
         
     ]
             ]
@@ -133,7 +133,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = '• ❄️ ɴᴏᴡ ᴄʟɪᴄᴋ ʜᴇʀᴇ ❄️ •',
+                    text = '• ⚡ ɴᴏᴡ ᴄʟɪᴄᴋ ʜᴇʀᴇ ⚡ •',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
