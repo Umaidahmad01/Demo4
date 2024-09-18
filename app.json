@@ -6,8 +6,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Umaidahmad01/FileStore.git",
-  "logo": "https://envs.sh/qDs.jpg",
+  "repository": "",
+  "logo": "",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
