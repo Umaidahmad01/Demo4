@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7432362257:AAERDa__mqR7ZLnoSXIeSchHZqpzZVzekwc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6717070197:AAHa0e_kzvmnwAWafUvHPZt-TDBklpKK2_g")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20718334"))
@@ -32,9 +32,9 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Umaid:umaid@cluster0.k2yx
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002224689394"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002072642438"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002192499985"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001930406310"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002126461167"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002072642438"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -61,7 +61,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @WoW_Gameplayes_YT"
+USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @rin_nanakura"
 
 ADMINS.append(5585016974)
 ADMINS.append(5585016974)
