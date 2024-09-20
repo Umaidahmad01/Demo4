@@ -73,7 +73,7 @@ class Bot(Client):
                 self.LOGGER(__name__).info("\nBot Stopped. https://t.me/weebs_support for support")
                 sys.exit()
          if FORCE_SUB_CHANNEL3:
-            try:
+             try:
                 link = (await self.get_chat(FORCE_SUB_CHANNEL2)).invite_link
                 if not link:
                     await self.export_chat_invite_link(FORCE_SUB_CHANNEL2)
