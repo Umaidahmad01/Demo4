@@ -1,4 +1,4 @@
-#(©) Codeflix_Bots
+#(©) about_society
 
 
 
@@ -103,8 +103,10 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⚡️ ᴍᴏᴠɪᴇs', url='https://t.me/+QVewP06XCPFiYWZl'),
-                    InlineKeyboardButton('🍁 sᴇʀɪᴇs', url='https://t.me/webseries_flix')
+                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close"),
+                    InlineKeyboardButton('⛩️ ʜᴏᴍᴇ ⛩️ ', url='https://t.me/anime_sub_society')
+                    InlineKeyboardButton('⛩️ ᴏɴɢᴏɪɴɢ sᴏᴄɪᴇᴛʏ ⛩️ ', url='https://t.me/Ongoing_society')
+                    InlineKeyboardButton('⛩️ ʙᴏᴛ sᴏᴄɪᴇᴛʏ ⛩️ ', url='https://t.me/about_society')
                 ]
             ]
         )
@@ -139,6 +141,7 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink3),
         ]
     ]
     try:
