@@ -3,9 +3,9 @@
 
 
 
-import os
-import logging
-from logging.handlers import RotatingFileHandler
+import re
+from os import environ
+from Script import script 
 
 id_pattern = re.compile(r'^.\d+$')
 
@@ -69,6 +69,8 @@ ADMINS.append(OWNER_ID)
 ADMINS.append(5585016974)
 
 LOG_FILE_NAME = "filesharingbot.txt"
+
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002078429106'))
 
 logging.basicConfig(
     level=logging.INFO,
