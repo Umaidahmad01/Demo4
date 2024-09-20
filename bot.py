@@ -13,7 +13,7 @@ from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE
 
 
 name ="""
- BY MIKEY FROM TG
+ BY OBITO FROM TG
 """
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
